@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopper's Hub</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.jpg" width="165px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li> <a href="index.html">Home</a> </li>
+                    <li> <a href="products.html">Products</a> </li>
+                    <li> <a href="">About</a> </li>
+                    <li> <a href="">Contact</a> </li>
+                    <li> <a href="account.html">Account</a> </li>
+                    <li><a class="active" href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a></li>
+                </ul>
+            </nav>
+            
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div> 
+   </div>
+
+    <!-- Car item details -->
+    <div class="small-container cart-page">
+
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="images/buy-1.jpg" >
+                        <div>
+                            <p>Red Printed T-Shit</p>
+                            <small>Price: Rs.399</small>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>Rs.399</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="images/buy-2.jpg" >
+                        <div>
+                            <p>HRX Men's Sport Shoes</p>
+                            <small>Price: Rs.4599</small>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>Rs.4599</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="images/buy-3.jpg" >
+                        <div>
+                            <p>Men's Trousers</p>
+                            <small>Price: Rs.799</small>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>Rs.799</td>
+            </tr>
+        </table>
+
+        <div class="total-price">
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>Rs.5797</td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td>Rs.100</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>Rs.5897</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div class="pay">
+            <div class="btn">Proceed to Pay</div>
+        </div>
+
+        
+    </div>
+     <!-- Footer -->
+  <div class="footer">
+    <div class="small-container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3><br>
+                <p>Downoad our app for Android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png">
+                    <img src="images/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/logo.jpg">
+                <p>Shop the latest styles from a variety of brands at lowest prices.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Links</h3><br>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blogs</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul><br>
+            <div class="footer-col-4">
+                <h3>Follow Us On</h3><br>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twiter</li>
+                    <li>Instagram</li>
+                    <li>You Tube</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+ </div>
+   <!-- JS for toggle menu  -->
+   <script src="script.js"></script>
+
+</body>
+</html>
+ 
